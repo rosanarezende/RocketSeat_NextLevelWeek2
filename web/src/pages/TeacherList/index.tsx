@@ -11,13 +11,13 @@ const TeacherList: React.FC = () => {
       <PageHeader title="Essas são as mentoras disponíveis">
         <form id="search-teachers">
           <div className="input-block">
-            <label htmlFor="language">Linguagem</label>
-            <input type="text" id="language"/>
+            <label htmlFor="subject">Linguagem / Framework</label>
+            <input type="text" id="subject"/>
           </div>
 
           <div className="input-block">
-            <label htmlFor="framework">Framework</label>
-            <input type="text" id="framework"/>
+            <label htmlFor="cost">Valor</label>
+            <input type="text" id="cost"/>
           </div>
 
           <div className="input-block">
